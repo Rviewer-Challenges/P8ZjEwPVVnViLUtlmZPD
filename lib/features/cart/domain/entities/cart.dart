@@ -8,6 +8,12 @@ class Cart extends Equatable {
     required this.items,
   });
 
+
+  @override
+  String toString() {
+    return 'Cart{items: $items}';
+  }
+
   @override
   List<Object?> get props => [
         items,

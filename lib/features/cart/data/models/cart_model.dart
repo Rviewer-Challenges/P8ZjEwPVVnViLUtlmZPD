@@ -17,4 +17,9 @@ class CartModel extends Cart {
       "items": items,
     };
   }
+
+  @override
+  String toString() {
+    return 'CartModel{items: $items}';
+  }
 }
