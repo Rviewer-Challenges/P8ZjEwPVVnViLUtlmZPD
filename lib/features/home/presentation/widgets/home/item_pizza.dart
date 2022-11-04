@@ -1,4 +1,5 @@
-import 'package:buon_appetito/core/routes.dart';
+import 'package:buon_appetito/core/router/arguments.dart';
+import 'package:buon_appetito/core/router/routes.dart';
 import 'package:buon_appetito/core/utils/colors.dart';
 import 'package:buon_appetito/core/utils/money.dart';
 import 'package:buon_appetito/features/cart/presentation/bloc/cart_bloc.dart';
@@ -22,7 +23,10 @@ class ItemPizza extends StatelessWidget {
       children: [
         InkWell(
           onTap: () {
-            Navigator.of(context).pushNamed(detailItemRoute);
+            Navigator.of(context).pushNamed(
+              detailItemRoute,
+              arguments: DetailItemPageArguments(item: pizza),
+            );
           },
           splashColor: mainColor,
           highlightColor: mainColor.withOpacity(.5),

@@ -3,11 +3,17 @@ import 'package:buon_appetito/features/home/data/models/ingredient_model.dart';
 import 'package:equatable/equatable.dart';
 
 class Pizza extends Equatable implements Item {
+  @override
   final String id;
+  @override
   final String name;
+  @override
   final String? description;
+  @override
   final String imageURL;
+  @override
   final List<IngredientModel> ingredients;
+  @override
   final double price;
 
   const Pizza({

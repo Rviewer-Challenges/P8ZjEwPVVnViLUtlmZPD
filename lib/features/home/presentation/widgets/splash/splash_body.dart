@@ -1,4 +1,4 @@
-import 'package:buon_appetito/core/routes.dart';
+import 'package:buon_appetito/core/router/routes.dart';
 import 'package:buon_appetito/features/cart/presentation/bloc/cart_bloc.dart' as cart_bloc;
 import 'package:buon_appetito/features/home/presentation/bloc/home_bloc.dart';
 import 'package:flutter/material.dart';

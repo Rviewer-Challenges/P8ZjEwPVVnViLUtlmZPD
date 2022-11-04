@@ -20,6 +20,7 @@ dependencies:
   get_it: 7.2.0
   intl: 0.17.0
   localstorage: 4.0.0+1
+  readmore: 2.2.0
 
 
 dev_dependencies:

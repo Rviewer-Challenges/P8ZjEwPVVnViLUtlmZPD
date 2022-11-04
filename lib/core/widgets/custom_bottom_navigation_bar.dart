@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:buon_appetito/core/enums/menu_items.dart';
-import 'package:buon_appetito/core/routes.dart';
+import 'package:buon_appetito/core/router/routes.dart';
 
 class CustomBottomNavigationBar extends StatefulWidget {
   final MenuItems option;

@@ -1,4 +1,4 @@
-import 'package:buon_appetito/core/routes.dart';
+import 'package:buon_appetito/core/router/routes.dart';
 import 'package:buon_appetito/core/utils/colors.dart';
 import 'package:buon_appetito/core/utils/variables.dart';
 import 'package:buon_appetito/features/cart/data/models/cart_model.dart';
@@ -7,7 +7,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class AppBarHome extends StatelessWidget implements PreferredSizeWidget {
-  const AppBarHome({Key? key}) : super(key: key);
+  final bool? showTitle;
+  final Color? buttonsColor;
+  final Color? cartCountColor;
+
+  const AppBarHome({
+    Key? key,
+    this.showTitle = true,
+    this.buttonsColor,
+    this.cartCountColor,
+  }) : super(key: key);
 
   @override
   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
@@ -27,19 +36,21 @@ class AppBarHome extends StatelessWidget implements PreferredSizeWidget {
         return AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
-          title: const Text(
-            appName,
-            style: TextStyle(color: Colors.black, fontSize: 24),
-          ),
+          title: showTitle == true
+              ? const Text(
+                  appName,
+                  style: TextStyle(color: Colors.black, fontSize: 24),
+                )
+              : const SizedBox(),
           actions: [
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: Stack(
                 children: [
                   IconButton(
-                    icon: const Icon(
+                    icon: Icon(
                       Icons.shopping_cart_outlined,
-                      color: mainColor,
+                      color: buttonsColor ?? mainColor,
                     ),
                     splashRadius: 24,
                     onPressed: () {
@@ -51,16 +62,17 @@ class AppBarHome extends StatelessWidget implements PreferredSizeWidget {
                           right: 0,
                           top: 0,
                           child: Container(
-                            decoration: const BoxDecoration(
+                            decoration: BoxDecoration(
                               shape: BoxShape.circle,
-                              color: mainColor,
+                              color: buttonsColor ?? mainColor,
                             ),
                             padding: const EdgeInsets.all(6),
                             child: Center(
                               child: Text(
                                 cart.items.length.toString(),
-                                style: const TextStyle(
+                                style: TextStyle(
                                   fontSize: 10,
+                                  color: cartCountColor ?? Colors.white,
                                 ),
                               ),
                             ),

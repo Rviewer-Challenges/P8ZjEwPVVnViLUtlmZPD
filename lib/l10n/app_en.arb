@@ -254,5 +254,17 @@
   "splashMessage": "Your Favorite Pizza App",
   "@splashMessage": {
     "description": "splashMessage label"
+  },
+  "description": "Description",
+  "@description": {
+    "description": "description label"
+  },
+  "noDescription": "No description",
+  "@noDescription": {
+    "description": "noDescription label"
+  },
+  "ingredients": "Ingredients",
+  "@ingredients": {
+    "description": "ingredients label"
   }
 }

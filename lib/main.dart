@@ -1,5 +1,5 @@
 import 'package:buon_appetito/core/utils/colors.dart';
-import 'package:buon_appetito/core/router.dart' as router;
+import 'package:buon_appetito/core/router/router.dart' as router;
 import 'package:buon_appetito/features/cart/presentation/bloc/cart_bloc.dart';
 import 'package:buon_appetito/features/home/presentation/bloc/home_bloc.dart';
 import 'package:buon_appetito/features/home/presentation/pages/splash_page.dart';

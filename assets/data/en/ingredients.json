@@ -1,42 +1,52 @@
 [
   {
     "id": 1,
-    "name": "Cheese"
+    "name": "Cheese",
+    "active": true
   },
   {
     "id": 2,
-    "name": "Chicken"
+    "name": "Chicken",
+    "active": true
   },
   {
     "id": 3,
-    "name": "Mushroom"
+    "name": "Mushroom",
+    "active": true
   },
   {
     "id": 4,
-    "name": "Pepperoni"
+    "name": "Pepperoni",
+    "active": true
   },
   {
     "id": 5,
-    "name": "Salami"
+    "name": "Salami",
+    "active": true
   },
   {
     "id": 6,
-    "name": "Onion"
+    "name": "Onion",
+    "active": true
   },
   {
     "id": 7,
-    "name": "Olives"
+    "name": "Olives",
+    "active": true
   },
   {
     "id": 8,
-    "name": "Ham"
+    "name": "Ham",
+    "active": true
   },
   {
     "id": 9,
-    "name": "BBQ sauce"
+    "name": "BBQ sauce",
+    "active": true
   },
   {
     "id": 10,
-    "name": "Chilli"
+    "name": "Chilli",
+    "active": true
   }
 ]

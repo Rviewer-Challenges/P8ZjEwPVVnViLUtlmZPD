@@ -1,42 +1,52 @@
 [
   {
     "id": 1,
-    "name": "Queso"
+    "name": "Queso",
+    "active":true
   },
   {
     "id": 2,
-    "name": "Pollo"
+    "name": "Pollo",
+    "active": true
   },
   {
     "id": 3,
-    "name": "Champiñones"
+    "name": "Champiñones",
+    "active": true
   },
   {
     "id": 4,
-    "name": "Pepperoni"
+    "name": "Pepperoni",
+    "active": true
   },
   {
     "id": 5,
-    "name": "Salami"
+    "name": "Salami",
+    "active": true
   },
   {
     "id": 6,
-    "name": "Cebolla"
+    "name": "Cebolla",
+    "active": true
   },
   {
     "id": 7,
-    "name": "Aceitunas"
+    "name": "Aceitunas",
+    "active": true
   },
   {
     "id": 8,
-    "name": "Jamón"
+    "name": "Jamón",
+    "active": true
   },
   {
     "id": 9,
-    "name": "Salsa BBQ"
+    "name": "Salsa BBQ",
+    "active": true
   },
   {
     "id": 10,
-    "name": "Chile"
+    "name": "Chile",
+    "active": true
   }
 ]
