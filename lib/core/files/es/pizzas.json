@@ -1,0 +1,82 @@
+[
+  {
+    "id":1,
+    "image": "pizza_chicken_mushroom.png",
+    "name": "Pollo & Champiñones",
+    "description": "",
+    "ingredients": [1,2,3],
+    "price": 12
+  },
+  {
+    "id": 2,
+    "image": "pizza_double_pepperoni.png",
+    "name": "Doble Pepperoni",
+    "description": "",
+    "ingredients": [1,4],
+    "price": 12
+  },
+  {
+    "id": 3,
+    "image": "pizza_farm.png",
+    "name": "Granja",
+    "description": "",
+    "ingredients": [1, 6, 10, 5],
+    "price": 14
+  },
+  {
+    "id": 4,
+    "image": "pizza_ham.png",
+    "name": "Jamón",
+    "description": "",
+    "ingredients": [1, 8],
+    "price": 10
+  },
+  {
+    "id": 5,
+    "image": "pizza_margherita.png",
+    "name": "Margarita",
+    "description": "",
+    "ingredients": [1, 2, 6],
+    "price": 11
+  },
+  {
+    "id": 6,
+    "image": "pizza_olive.png",
+    "name": "Aceituna",
+    "description": "",
+    "ingredients": [1, 7, 6, 3, 5],
+    "price": 16
+  },
+  {
+    "id": 7,
+    "image": "pizza_salami.png",
+    "name": "Salami & Queso",
+    "description": "",
+    "ingredients": [1, 5, 4],
+    "price": 15
+  },
+  {
+    "id": 8,
+    "image": "pizza_spicy_italia.png",
+    "name": "Spicy Italia",
+    "description": "",
+    "ingredients": [1, 8, 10, 9],
+    "price": 20
+  },
+  {
+    "id": 9,
+    "image": "pizza_tropicana.png",
+    "name": "Tropicana",
+    "description": "",
+    "ingredients": [1, 3, 6, 8],
+    "price": 16
+  },
+  {
+    "id": 10,
+    "image": "pizza_vegetable.png",
+    "name": "Vegetariana",
+    "description": "",
+    "ingredients": [1, 3, 6, 7],
+    "price": 18
+  }
+]

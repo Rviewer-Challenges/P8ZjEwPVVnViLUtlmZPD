@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Queso"
+  },
+  {
+    "id": 2,
+    "name": "Pollo"
+  },
+  {
+    "id": 3,
+    "name": "Champiñones"
+  },
+  {
+    "id": 4,
+    "name": "Pepperoni"
+  },
+  {
+    "id": 5,
+    "name": "Salami"
+  },
+  {
+    "id": 6,
+    "name": "Cebolla"
+  },
+  {
+    "id": 7,
+    "name": "Aceitunas"
+  },
+  {
+    "id": 8,
+    "name": "Jamón"
+  },
+  {
+    "id": 9,
+    "name": "Salsa BBQ"
+  },
+  {
+    "id": 10,
+    "name": "Chile"
+  }
+]

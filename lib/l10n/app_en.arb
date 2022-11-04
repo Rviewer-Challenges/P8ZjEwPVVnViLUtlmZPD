@@ -1,0 +1,258 @@
+{
+  "appName": "Reports IPT",
+  "@appName": {
+    "description": "appName label"
+  },
+  "welcome": "Welcome",
+  "@welcome": {
+    "description": "welcome label"
+  },
+  "clients": "Clients",
+  "@clients": {
+    "description": "clients label"
+  },
+  "providers": "Providers",
+  "@providers": {
+    "description": "providers label"
+  },
+  "users": "Users",
+  "@users": {
+    "description": "users label"
+  },
+  "generateReport": "Generate report",
+  "@generateReport": {
+    "description": "generateReport label"
+  },
+  "downloadReport": "Download report",
+  "@downloadReport": {
+    "description": "downloadReport label"
+  },
+  "id": "Id",
+  "@id": {
+    "description": "id label"
+  },
+  "code": "Code",
+  "@code": {
+    "description": "code label"
+  },
+  "ruc": "RUC",
+  "@ruc": {
+    "description": "ruc label"
+  },
+  "dni": "DNI",
+  "@dni": {
+    "description": "dni label"
+  },
+  "passport": "Passport",
+  "@passport": {
+    "description": "passport label"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "name label"
+  },
+  "sri": "SRI",
+  "@sri": {
+    "description": "sri label"
+  },
+  "address": "Address",
+  "@address": {
+    "description": "address label"
+  },
+  "address2": "Address 2",
+  "@address2": {
+    "description": "address2 label"
+  },
+  "observations": "Observations",
+  "@observations": {
+    "description": "observations label"
+  },
+  "representative": "Representative",
+  "@representative": {
+    "description": "representative label"
+  },
+  "phone": "Phone",
+  "@phone": {
+    "description": "phone label"
+  },
+  "fax": "Fax",
+  "@fax": {
+    "description": "fax label"
+  },
+  "cellphone": "Cellphone",
+  "@cellphone": {
+    "description": "cellphone label"
+  },
+  "mail": "Mail",
+  "@mail": {
+    "description": "mail label"
+  },
+  "website": "Website",
+  "@website": {
+    "description": "website label"
+  },
+  "clientType": "Client type",
+  "@clientType": {
+    "description": "clientType label"
+  },
+  "principalId": "Id principal",
+  "@principalId": {
+    "description": "principalId label"
+  },
+  "principalCode": "Code principal",
+  "@principalCode": {
+    "description": "principalCode label"
+  },
+  "principalName": "Name principal",
+  "@principalName": {
+    "description": "principalName label"
+  },
+  "guarantorId": "Id guarantor",
+  "@guarantorId": {
+    "description": "guarantorId label"
+  },
+  "guarantorCode": "Code guarantor",
+  "@guarantorCode": {
+    "description": "guarantorCode label"
+  },
+  "guarantorName": "Name guarantor",
+  "@guarantorName": {
+    "description": "guarantorName label"
+  },
+  "sellerId": "Id seller",
+  "@sellerId": {
+    "description": "sellerId label"
+  },
+  "sellerCode": "Code seller",
+  "@sellerCode": {
+    "description": "sellerCode label"
+  },
+  "sellerName": "Name seller",
+  "@sellerName": {
+    "description": "sellerName label"
+  },
+  "collectorId": "Id collector",
+  "@collectorId": {
+    "description": "collectorId label"
+  },
+  "collectorCode": "Code collector",
+  "@collectorCode": {
+    "description": "collectorCode label"
+  },
+  "collectorName": "Name collector",
+  "@collectorName": {
+    "description": "collectorName label"
+  },
+  "city": "City",
+  "@city": {
+    "description": "city label"
+  },
+  "state": "State",
+  "@state": {
+    "description": "state label"
+  },
+  "qualification": "Qualification",
+  "@qualification": {
+    "description": "qualification label"
+  },
+  "credit": "Credit",
+  "@credit": {
+    "description": "credit label"
+  },
+  "taxpayerType": "Taxpayer type",
+  "@taxpayerType": {
+    "description": "taxpayerType label"
+  },
+  "electronicRetention": "Electronic retention",
+  "@electronicRetention": {
+    "description": "electronicRetention label"
+  },
+  "paymentWay": "Payment way",
+  "@paymentWay": {
+    "description": "paymentWay label"
+  },
+  "active": "Active",
+  "@active": {
+    "description": "active label"
+  },
+  "reportSaved": "Report saved",
+  "@reportSaved": {
+    "description": "reportSaved label"
+  },
+  "error": "Error",
+  "@error": {
+    "description": "error label"
+  },
+  "records": "Records",
+  "@records": {
+    "description": "records label"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "settings label"
+  },
+  "hostname": "Hostname",
+  "@hostname": {
+    "description": "hostname label"
+  },
+  "enterText": "Enter text",
+  "@enterText": {
+    "description": "enterText label"
+  },
+  "port": "Port",
+  "@port": {
+    "description": "port label"
+  },
+  "database": "Database",
+  "@database": {
+    "description": "database label"
+  },
+  "username": "Username",
+  "@username": {
+    "description": "username label"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "username label"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "save label"
+  },
+  "saved": "Saved",
+  "@saved": {
+    "description": "saved label"
+  },
+  "home": "Home",
+  "@home": {
+    "description": "home label"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "profile label"
+  },
+  "orders": "Orders",
+  "@orders": {
+    "description": "orders label"
+  },
+  "pizzas": "Pizzas",
+  "@pizzas": {
+    "description": "pizzas label"
+  },
+  "findYourPizza": "Find your favourite Pizza",
+  "@findYourPizza": {
+    "description": "findYourPizza label"
+  },
+  "add": "Add",
+  "@add": {
+    "description": "add label"
+  },
+  "added": "Added",
+  "@added": {
+    "description": "added label"
+  },
+  "splashMessage": "Your Favorite Pizza App",
+  "@splashMessage": {
+    "description": "splashMessage label"
+  }
+}
