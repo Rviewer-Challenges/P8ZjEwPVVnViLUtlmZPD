@@ -1,7 +1,10 @@
 import 'package:buon_appetito/core/utils/colors.dart';
 import 'package:buon_appetito/features/home/data/models/pizza_model.dart';
+import 'package:buon_appetito/features/home/presentation/bloc/home_bloc.dart';
 import 'package:buon_appetito/features/home/presentation/widgets/detail_item/ingredient_item.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class DetailHalvePizza extends StatelessWidget {
@@ -29,15 +32,37 @@ class DetailHalvePizza extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Padding(
-                padding: const EdgeInsets.only(top: 8, bottom: 4),
-                child: Text(
-                  AppLocalizations.of(context)!.halveCount.toString().replaceFirst('\$index', halveCount.toString()),
-                  style: const TextStyle(
-                    color: greyTextColor,
-                    fontSize: 18,
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.only(top: 8, bottom: 8),
+                      child: Text(
+                        AppLocalizations.of(context)!
+                            .halveCount
+                            .toString()
+                            .replaceFirst('\$index', halveCount.toString()),
+                        style: const TextStyle(
+                          color: greyTextColor,
+                          fontSize: 18,
+                        ),
+                      ),
+                    ),
                   ),
-                ),
+                  if (pizza.halves.length > 1)
+                    IconButton(
+                      onPressed: () {
+                        BlocProvider.of<HomeBloc>(context).add(
+                          RemoveHalvePizzaEvent(pizza, pizza.halves[pizza.halves.length - 1].id),
+                        );
+                      },
+                      icon: const Icon(
+                        Icons.delete_outline,
+                        color: Colors.red,
+                      ),
+                    ),
+                ],
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 16, bottom: 4),

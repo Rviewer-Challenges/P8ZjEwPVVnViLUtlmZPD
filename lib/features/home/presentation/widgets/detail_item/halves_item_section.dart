@@ -66,7 +66,6 @@ class _HalvesItemSectionState extends State<HalvesItemSection> {
                         );
                       },
                       icon: const Icon(Icons.remove),
-                      splashRadius: 16,
                     ),
                     Text(pizza.halves.length.toString()),
                     IconButton(
