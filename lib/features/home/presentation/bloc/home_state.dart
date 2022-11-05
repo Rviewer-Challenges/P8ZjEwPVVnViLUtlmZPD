@@ -40,3 +40,21 @@ class GetPizzasSuccess extends HomeState {
   @override
   List<Object?> get props => [pizzas];
 }
+
+class AddHalvePizzaSuccess extends HomeState {
+  final PizzaModel pizza;
+
+  const AddHalvePizzaSuccess(this.pizza);
+
+  @override
+  List<Object?> get props => [pizza];
+}
+
+class RemoveHalvePizzaSuccess extends HomeState {
+  final PizzaModel pizza;
+
+  const RemoveHalvePizzaSuccess(this.pizza);
+
+  @override
+  List<Object?> get props => [pizza];
+}

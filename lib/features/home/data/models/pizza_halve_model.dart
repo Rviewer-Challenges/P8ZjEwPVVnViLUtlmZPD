@@ -2,14 +2,11 @@ import 'package:buon_appetito/features/home/data/models/ingredient_model.dart';
 import 'package:buon_appetito/features/home/domain/entities/pizza_halve.dart';
 
 class PizzaHalveModel extends PizzaHalve {
-  final int id;
-  final List<IngredientModel> ingredients;
-
-  const PizzaHalveModel({
-    required this.id,
-    required this.ingredients,
+  PizzaHalveModel({
+    id,
+    required ingredients,
   }) : super(
-          id: id,
+          id: DateTime.now().millisecondsSinceEpoch,
           ingredients: ingredients,
         );
 

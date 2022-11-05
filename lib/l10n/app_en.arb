@@ -266,5 +266,17 @@
   "ingredients": "Ingredients",
   "@ingredients": {
     "description": "ingredients label"
+  },
+  "halveCount": "Halve $index",
+  "@halveCount": {
+    "description": "halveCount label"
+  },
+  "halves": "Halves",
+  "@halves": {
+    "description": "halves label"
+  },
+  "halveLimitationMessage": "You can only add 4 halves",
+  "@halveLimitationMessage": {
+    "description": "halveLimitationMessage label"
   }
 }

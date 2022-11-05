@@ -2,6 +2,7 @@ import 'package:buon_appetito/core/utils/text_utils.dart';
 import 'package:buon_appetito/features/home/data/models/ingredient_model.dart';
 import 'package:buon_appetito/features/home/data/models/pizza_halve_model.dart';
 import 'package:buon_appetito/features/home/domain/entities/pizza.dart';
+import 'package:buon_appetito/features/home/domain/entities/pizza_halve.dart';
 
 class PizzaModel extends Pizza {
   const PizzaModel({
@@ -11,7 +12,7 @@ class PizzaModel extends Pizza {
     required String imageURL,
     required List<IngredientModel> ingredients,
     required double price,
-    required List<PizzaHalveModel> halves,
+    required List<PizzaHalve> halves,
   }) : super(
           id: id,
           name: name,
